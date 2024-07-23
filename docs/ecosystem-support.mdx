@@ -3,93 +3,34 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 # Ecosystem Support
 
-<Tabs>
-  <TabItem value="digicreds" label="Digital Credentials API" default>
+<Tabs groupId="support-matrix" className="unique-tabs" queryString>
+  <TabItem value="dc-api" label="Digital Credentials API" default>
     The Digital Credentials Web Platform API
+    
+    |            | **Chrome** | **Edge** | **Firefox** | **Safari** |
+    |------------|------------|----------|-------------|------------|
+    | <FontAwesomeIcon icon="fa-brands fa-android" fixedWidth /> Android    | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-chrome" fixedWidth /> Chrome OS  | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-apple" fixedWidth /> iOS/iPadOS | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> |
+    | <FontAwesomeIcon icon="fa-brands fa-apple" fixedWidth /> macOS      | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> |
+    | <FontAwesomeIcon icon="fa-brands fa-ubuntu" fixedWidth /> Ubuntu     | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-windows" fixedWidth /> Windows    | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+
+
+    <FontAwesomeIcon icon="fa-solid fa-flask-vial" /> Experimental
+
+    <FontAwesomeIcon icon="fa-solid fa-code-pull-request" /> In Development
 
   </TabItem>
   <TabItem value="app-wallet" label="App Platform Wallet APIs">
-    Platform-specific APIs which native app identity wallets interface with.
+    Coming Soon.
   </TabItem>
   <TabItem value="app-pres-req" label="Native App Presentation Request APIs">
-    Platform-specific APIs which native apps can call to request a digital credential.
+    Coming Soon.
   </TabItem>
 </Tabs>
-
-## Digital Credentials API Browser Support
-
-<div>
-  <table>
-    <thead>
-      <tr>
-        <td>Capability</td>
-        <td class="text--center">
-          Android
-        </td>
-        <td class="text--center">Chrome OS</td>
-        <td class="text--center">
-          iOS/iPad OS
-        </td>
-        <td class="text--center">macOS</td>
-        <td class="text--center">Ubuntu</td>
-        <td class="text--center">
-          Windows
-        </td>
-      </tr>
-    </thead>
-    <tr>
-      <td>
-        <span>
-          Same-Device Presentation
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span>
-          Cross-Device Presentation
-        </span>
-      </td>
-    </tr>
-  </table>
-</div>
-
-| Capability                | Android            | Chrome OS | iOS/iPadOS | macOS | Ubuntu | Windows |
-| ------------------------- | ------------------ | --------- | ---------- | ----- | ------ | ------- |
-| **Same-Device Presentation**  | Chrome 128<br />✅ |           |            |       |        |         |
-| **Cross-Device Presentation** | Chrome 128<br />   |           |            |       |        |         |
-
-<Tabs>
-  <TabItem value="summary" label="Summary" default>
-    | Capability                | Android            | Chrome OS | iOS/iPadOS | macOS | Ubuntu | Windows |
-| ------------------------- | ------------------ | --------- | ---------- | ----- | ------ | ------- |
-| Same-Device Presentation  | Chrome 128<br />✅ |           |            |       |        |         |
-| Cross-Device Presentation | Chrome 128<br />   |           |            |       |        |         |
-  </TabItem>
-  <TabItem value="android" label="Android" default>
-    This is an apple 🍎
-  </TabItem>
-  <TabItem value="chromeos" label="Chrome OS">
-    This is an orange 🍊
-  </TabItem>
-  <TabItem value="ios" label="iOS/iPadOS">
-    This is a banana 🍌
-  </TabItem>
-  <TabItem value="macos" label="macOS">
-    This is a banana 🍌
-  </TabItem>
-  <TabItem value="Ubuntu" label="Ubuntu">
-    This is a banana 🍌
-  </TabItem>
-  <TabItem value="Windows" label="Windows">
-    This is a banana 🍌
-  </TabItem>
-</Tabs>
-
-<FAIcon icon="fa-brands fa-github" size="4x" />
