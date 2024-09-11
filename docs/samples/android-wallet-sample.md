@@ -10,7 +10,7 @@ Testing with the OWF Reference Wallet
 
 1. Ensure you've completed all of the pre-requisites defined here: [Requirements](/requirements/requirements.md)
 
-2. Download and install the sample wallet app [here](appholder-wallet-debug.apk). It will appear in the launcher as `IC Purse`.
+2. Download and install the sample wallet app [here](assets/appholder-wallet-debug-v20240906.apk). It will appear in the launcher as `IC Purse`.
 
    :::note
    This is the [Open Wallet Foundation reference wallet](https://github.com/openwallet-foundation-labs/identity-credential/tree/main/appholder) which can also be built directly from source if you prefer.
@@ -20,7 +20,7 @@ Testing with the OWF Reference Wallet
 adb install -t <path-to-apk>
 ```
 
-3. Install the sample reader app [here](appverifier-debug.apk). It will appear in the launcher as `App Verifier`.
+3. Install the sample reader app [here](assets/appverifier-debug-v20240906.apk). It will appear in the launcher as `App Verifier`.
 
    :::note
    This is the [Open Wallet Foundation reference verifier app](https://github.com/openwallet-foundation-labs/identity-credential/tree/main/appverifier) which can also be built directly from source if you prefer.
