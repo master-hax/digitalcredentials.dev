@@ -61,12 +61,11 @@ const config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     navbar: {
       title: 'Digital Credentials API',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Identity card icon',
         src: 'img/digital-id.svg',
       },
       items: [
