@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/digitalcredentialsdev/dev.digitalcredentials.dev/tree/main/',
+            'https://github.com/digitalcredentialsdev/digitalcredentials.dev/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
