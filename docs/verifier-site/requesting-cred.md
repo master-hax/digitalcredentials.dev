@@ -27,6 +27,7 @@ async function requestCredential() {
       // Call the Digital Credentials API using the presentation request from the backend
       let dcResponse = await navigator.credentials.get({
         signal: controller.signal,
+        mediation: "required",
         digital: {
           requests: [{
             protocol: "openid4vp",
