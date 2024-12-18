@@ -10,7 +10,7 @@ Testing with the OWF Reference Wallet
 
 1. Ensure you've completed all of the pre-requisites defined here: [Requirements](/requirements/requirements.md)
 
-2. Download and install the sample wallet app [here](assets/appholder-wallet-debug-v20240906.apk). It will appear in the launcher as `IC Purse`.
+2. Download and install the sample wallet app [here](assets/appholder-wallet-debug-v20240906.apk). It will appear in the launcher as `IC Wallet`.
 
    :::note
    This is the [Open Wallet Foundation reference wallet](https://github.com/openwallet-foundation-labs/identity-credential/tree/main/appholder) which can also be built directly from source if you prefer.
@@ -32,7 +32,7 @@ adb install -t <path-to-apk>
 
 ## Generate a test credential
 
-1. Launch the "IC Purse" (App Holder) app and provision a new mDL
+1. Launch the "IC Wallet" (App Holder) app and provision a new mDL
 2. Tap the menu button and select `Add Self Signed Document`
 3. This document will now be available for presentment to native apps and websites
 
