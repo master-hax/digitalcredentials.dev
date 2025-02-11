@@ -13,7 +13,7 @@ Testing with the OWF Reference Wallet
 2. Download and install the sample wallet app [here](assets/appholder-wallet-debug-v20240906.apk). It will appear in the launcher as `IC Wallet`.
 
    :::note
-   This is the [Open Wallet Foundation reference wallet](https://github.com/openwallet-foundation-labs/identity-credential/tree/main/appholder) which can also be built directly from source if you prefer.
+   This is the [Open Wallet Foundation reference wallet](https://github.com/openwallet-foundation-labs/identity-credential/tree/main/wallet) which can also be built directly from source if you prefer.
    :::
 
 ```bash
