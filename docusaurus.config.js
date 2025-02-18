@@ -77,9 +77,10 @@ const config = {
         },
         { href: "https://test.digitalcredentials.dev", label: 'Test Verifier', position: 'left' },
         { href: "https://wicg.github.io/digital-credentials/", label: 'Spec', position: 'left' },
+        { href: "https://github.com/orgs/digitalcredentialsdev/discussions", label: 'Discussions', position: 'left' },
         {
-          href: 'https://github.com/wicg/digital-credentials',
-          label: 'GitHub',
+          href: 'https://github.com/digitalcredentialsdev/digitalcredentials.dev',
+          label: 'Source',
           position: 'right',
         },
       ],
