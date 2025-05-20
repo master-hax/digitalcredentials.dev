@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Digital Credentials API',
-  tagline: "The Digital Credentials API is a W3C incubation project to bring a secure and user friendly Web Platform API to request identity attributes from a user's digital identity wallet, similar to WebAuthn for passkeys.",
+  title: 'Digital Credentials Developer',
+  tagline: "Issue and request presentation of verifiable digital credentials from the web using the Digital Credentials API",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,7 +63,7 @@ const config = {
   themeConfig: {
     image: 'img/social-card.jpg',
     navbar: {
-      title: 'Digital Credentials API',
+      title: 'Digital Credentials Developer',
       logo: {
         alt: 'Identity card icon',
         src: 'img/digital-id.svg',
