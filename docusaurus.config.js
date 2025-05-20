@@ -88,9 +88,12 @@ const config = {
     footer: {
       style: 'dark',
       links: [
-
+        {
+          label: "License",
+          to: "license"
+        }
       ],
-      copyright: `digitalcredentials.dev is a resource of the Digital Credentials work item at the W3C WICG`,
+      copyright: `© 2025 | digitalcredentials.dev is maintained by members of the W3C Federated Identity WG`,
     },
     prism: {
       theme: prismThemes.github,
