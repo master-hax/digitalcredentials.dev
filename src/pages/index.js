@@ -10,9 +10,16 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
       <div className="container">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img
+            src={require('@site/static/img/P9P-Cocktails-Age21.png').default}
+            alt="Screenshot of a Pixel 9 Pro with a Digital Credentials request visible asking for proof of age."
+            style={{ width: '100%', maxWidth: '15em', height: 'auto' }}
+          />
+        </div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -36,14 +43,6 @@ export default function Home() {
       title={"Home"}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 25, marginBottom: 25 }}>
-          <img
-            src={require('@site/static/img/pixel-dcapi-request.png').default}
-            alt="Screenshot of a Pixel 8 Pro with a Digital Credentials request visible."
-          />
-        </div>
-      </main>
     </Layout>
   );
 }

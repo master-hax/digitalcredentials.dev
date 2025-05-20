@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Digital Credentials Developer',
-  tagline: "Issue and request presentation of verifiable digital credentials from the web using the Digital Credentials API",
+  tagline: "Issue and request verifiable digital credentials from the web using the Digital Credentials API",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
