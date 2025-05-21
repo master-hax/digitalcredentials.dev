@@ -75,6 +75,10 @@ const config = {
           position: 'left',
           label: 'Docs',
         },
+        {
+          label: "Ecosystem Support",
+          to: "ecosystem-support"
+        },
         { href: "https://demo.digitalcredentials.dev", label: 'Test Verifier', position: 'left' },
         { href: "https://w3c-fedid.github.io/digital-credentials/", label: 'Spec', position: 'left' },
         { href: "https://github.com/orgs/digitalcredentialsdev/discussions", label: 'Discussions', position: 'left' },

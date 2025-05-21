@@ -1,0 +1,40 @@
+---
+sidebar_position: 2
+hide_table_of_contents: true
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Ecosystem Support
+
+<Tabs groupId="support-matrix" className="unique-tabs" queryString>
+  <TabItem value="dc-api" label="Digital Credentials API (Web)" default>
+    The Digital Credentials Web Platform API
+    
+    |            | **Chrome** | **Edge** | **Firefox** | **Safari** |
+    |------------|------------|----------|-------------|------------|
+    | <FontAwesomeIcon icon="fa-brands fa-android" fixedWidth /> Android    | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-chrome" fixedWidth /> Chrome OS  | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-apple" fixedWidth /> iOS/iPadOS | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> |
+    | <FontAwesomeIcon icon="fa-brands fa-apple" fixedWidth /> macOS      | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center><FontAwesomeIcon icon="fa-solid fa-code-pull-request" /></center> |
+    | <FontAwesomeIcon icon="fa-brands fa-ubuntu" fixedWidth /> Ubuntu     | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+    | <FontAwesomeIcon icon="fa-brands fa-windows" fixedWidth /> Windows    | <center><FontAwesomeIcon icon="fa-solid fa-flask-vial" color="green" /></center> | <center><FontAwesomeIcon icon="fas fa-question" color="grey" /></center> | <center><FontAwesomeIcon icon="fas fa-times-circle" color="grey" /></center> | <center>-</center> |
+
+    <FontAwesomeIcon icon="fa-solid fa-flask-vial" /> Experimental
+
+    <FontAwesomeIcon icon="fa-solid fa-code-pull-request" /> In Development
+
+  </TabItem>
+    <TabItem value="app-pres-req" label="Digital Credentials API (Native)">
+    ## Android
+    Digital Credentials are requested via Android's Credential Manager API.
+    
+    Support is currently available in [CredentialManager](https://developer.android.com/jetpack/androidx/releases/credentials) 1.5.0-alpha05. See the [GetDigitalCredentialOption](https://developer.android.com/reference/kotlin/androidx/credentials/GetDigitalCredentialOption) class for details.
+    
+    The Android API mirrors the syntax of the DigitalCredential object defined in the web specification.
+  </TabItem>
+  <TabItem value="app-wallet" label="App Platform Wallet APIs">
+    Coming Soon.
+  </TabItem>
+</Tabs>
