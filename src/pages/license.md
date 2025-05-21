@@ -4,25 +4,25 @@ description: License for digitalcredentials.dev
 hide_table_of_contents: true
 ---
 
-# License for digitalcredentials.dev content
+## License for digitalcredentials.dev content
 
-All content, unless otherwise indicated, is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
+All content, unless otherwise indicated, is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 __Additional Terms: You may only link to this content. Copying, distributing, or modifying the content is not permitted.__
 
-## Code examples and snippets
+### Code examples and snippets
 
 Code examples and snippets are in the public domain
 ([CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)). No licensing notice
 is necessary, but if you need one, you can use:
 
-```
+```text
 Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/
 ```
 
 ### Text of CC0 license
 
-```
+```text
 Creative Commons Legal Code
 
 CC0 1.0 Universal
