@@ -4,12 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'How To Issue and Request Credentials',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Guidance for issuing and verifying digital credentials.
+      </>
+    ),
+  },
+  {
+    title: 'Ecosystem Support',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        State of the ecosystem
+      </>
+    ),
+  },
+  {
+    title: 'References, Tools, and Libraries',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Request verifiable digital credentials from 
       </>
     ),
   }
