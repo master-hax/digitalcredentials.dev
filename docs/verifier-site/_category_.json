@@ -1,8 +1,0 @@
-{
-  "label": "Verifier Site",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Using the Digital Credentials API on your website"
-  }
-}
