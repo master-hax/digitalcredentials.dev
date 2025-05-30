@@ -7,4 +7,3 @@ sidebar_position: 3
 ## Install a wallet
 
 ## Try the test site
-

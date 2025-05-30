@@ -4,4 +4,3 @@ title: "Credential Formats"
 ---
 
 # Credential Formats
-
