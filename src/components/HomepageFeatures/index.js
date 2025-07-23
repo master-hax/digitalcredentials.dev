@@ -5,28 +5,28 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'How To Issue and Request Credentials',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_developer-avatar_f6ac.svg').default,
     description: (
       <>
-        Guidance for issuing and verifying digital credentials.
+        Developer guidance for issuing and verifying digital credentials using the Digital Credentials API and OpenID4VC.
       </>
     ),
   },
   {
     title: 'Ecosystem Support',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_in-sync_3wdt.svg').default,
     description: (
       <>
-        State of the ecosystem
+        Current support throughout the ecosystem.
       </>
     ),
   },
   {
     title: 'References, Tools, and Libraries',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_dev-environment_n5by.svg').default,
     description: (
       <>
-        Request verifiable digital credentials from 
+        Additional resources for implementing the Digital Credentials API and OpenID4VC.
       </>
     ),
   }
