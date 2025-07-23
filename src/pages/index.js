@@ -10,8 +10,8 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -37,12 +37,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 25, marginBottom: 25 }}>
-          <img
-            src={require('@site/static/img/pixel-dcapi-request.png').default}
-            alt="Screenshot of a Pixel 8 Pro with a Digital Credentials request visible."
-          />
-        </div>
+        <HomepageFeatures />
       </main>
     </Layout>
   );

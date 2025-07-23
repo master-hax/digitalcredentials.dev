@@ -4,12 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'How To Issue and Request Credentials',
+    Svg: require('@site/static/img/undraw_developer-avatar_f6ac.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Developer guidance for issuing and verifying digital credentials using the Digital Credentials API and OpenID4VC.
+      </>
+    ),
+  },
+  {
+    title: 'Ecosystem Support',
+    Svg: require('@site/static/img/undraw_in-sync_3wdt.svg').default,
+    description: (
+      <>
+        Current support throughout the ecosystem.
+      </>
+    ),
+  },
+  {
+    title: 'References, Tools, and Libraries',
+    Svg: require('@site/static/img/undraw_dev-environment_n5by.svg').default,
+    description: (
+      <>
+        Additional resources for implementing the Digital Credentials API and OpenID4VC.
       </>
     ),
   }
