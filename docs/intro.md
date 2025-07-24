@@ -13,6 +13,3 @@ Here, you will find resources for:
 * Issuing verifiable digital credentials via the Digital Credentials API
 * Requesting presentation of verifiable digital credentials via the Digital Credentials API
 * Platform and ecosystem support for APIs and protocols
-
-## What is a digital credential?
-
