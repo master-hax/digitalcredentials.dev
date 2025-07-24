@@ -1,0 +1,20 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Deployment or Implementation Question
+    url: https://github.com/orgs/digitalcredentialsdev/discussions
+    about: Please use the Digital Credentials Developer forum to ask questions about deployment and implementations
+  - name: Report a bug in Google Chrome
+    url: https://bugs.chromium.org/p/chromium/issues/wizard
+    about: Report a Digital Credentials API-related bug in Google Chrome (Chromium)
+  - name: Report a bug in Mozilla Firefox
+    url: https://bugzilla.mozilla.org/home
+    about: Report a Digital Credentials API-related bug in Mozilla Firefox (Gecko)
+  - name: Report a bug in Apple Safari
+    url: https://webkit.org/reporting-bugs/
+    about: Report a Digital Credentials API-related bug in Apple's Safari (WebKit)
+  - name: Report a bug in Android
+    url: https://developer.android.com/studio/report-bugs
+    about: Report a Digital Credentials API-related bug in Android
+  - name: Report a bug in iOS, iPadOS, or macOS
+    url: https://developer.apple.com/bug-reporting/
+    about: Report a Digital Credentials API-related bug in Apple's iOS, iPadOS, or macOS
