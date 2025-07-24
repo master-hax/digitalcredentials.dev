@@ -92,6 +92,10 @@ const config = {
       style: 'dark',
       links: [
         {
+          label: "About",
+          to: "about"
+        },
+        {
           label: "License",
           to: "license"
         }
