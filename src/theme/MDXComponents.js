@@ -12,4 +12,5 @@ export default {
   // Re-use the default mapping
   ...MDXComponents,
   FontAwesomeIcon: FontAwesomeIcon, // Make the FontAwesomeIcon component available in MDX as <icon />.
+  FAIcon: FontAwesomeIcon
 };

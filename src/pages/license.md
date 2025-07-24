@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 All content, unless otherwise indicated, is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-__Additional Terms: You may only link to this content. Copying, distributing, or modifying the content is not permitted.__
+Additional Terms: __You may only link to this content. Copying, distributing, or modifying the content is not permitted.__
 
 ### Code examples and snippets
 
