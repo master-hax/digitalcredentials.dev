@@ -15,7 +15,7 @@ At its core, DCQL replaces the previous presentation definition approach with a 
 
 ## Why is DCQL Needed?
 
-The development of DCQL addresses several critical limitations in the verifiable credentials ecosystem:
+The development of DCQL addresses several critical limitations in the verifiable digital credentials ecosystem:
 
 **Complex Query Requirements**: Traditional credential request mechanisms struggled with expressing sophisticated requirements like "provide either a driver's license OR a passport AND proof of address." DCQL enables these complex logical relationships through nested query structures with required and from operators.
 
